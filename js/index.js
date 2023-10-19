@@ -23,7 +23,7 @@ function handleSubmit(event) {
 
   if (firstName === "") {
     firstNameTag.style.border = "2px solid hsl(0, 100%, 74%)";
-    firstNameTag.style.backgroundImage = "url('../images/icon-error.svg')";
+    firstNameTag.style.backgroundImage = "url('./images/icon-error.svg')";
     firstNameTag.style.backgroundRepeat = "no-repeat";
     firstNameTag.style.backgroundPosition = "center";
   } else {
@@ -33,7 +33,7 @@ function handleSubmit(event) {
 
   if (lastName === "") {
     lastNameTag.style.border = "2px solid hsl(0, 100%, 74%)";
-    lastNameTag.style.backgroundImage = "url('../images/icon-error.svg')";
+    lastNameTag.style.backgroundImage = "url('./images/icon-error.svg')";
     lastNameTag.style.backgroundRepeat = "no-repeat";
     lastNameTag.style.backgroundPosition = "center";
   } else {
@@ -42,7 +42,7 @@ function handleSubmit(event) {
   }
   if (email === "") {
     emailTag.style.border = "2px solid hsl(0, 100%, 74%)";
-    emailTag.style.backgroundImage = "url('/images/icon-error.svg')";
+    emailTag.style.backgroundImage = "url('./images/icon-error.svg')";
     emailTag.style.backgroundRepeat = "no-repeat";
     emailTag.style.backgroundPosition = "center";
   } else {
